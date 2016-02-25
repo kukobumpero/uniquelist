@@ -79,8 +79,8 @@ class UniqueList
         if ($keepHistory === true) {
             $this->keepHistory = false;
         }
-        if ($uniqueDimension > 0) {
-            $this->$uniqueDimension = $uniqueDimension;
+        if ($uniqueDimension >= 0) {
+            $this->uniqueDimension = $uniqueDimension;
         }
     }
 
