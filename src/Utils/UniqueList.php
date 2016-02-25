@@ -219,7 +219,10 @@ class UniqueList
 
         foreach ($inputList as $row) {
             if (!isset($duplicateCounter[$row[$this->uniqueDimension]])) {
+                $duplicateCounter[$row[$this->uniqueDimension]] = 0;
                 $parsedList[] = $row;
+            } else {
+                $duplicateCounter[$row[$this->uniqueDimension]]++;
             }
         }
 
