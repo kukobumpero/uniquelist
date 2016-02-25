@@ -1,0 +1,22 @@
+{
+  "name": "Bumpero/Utils",
+  "description": "Just 'Utils' *not* for use :-), bad code, bad!",
+  "license": "MIT",
+  "keywords": ["Kuko", "Bumpero"],
+  "authors": [
+    {
+      "name": "Kuko Bumpero",
+      "email": "kukobumpero@gmail.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "5.2.*"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Bumpero\\": "src/",
+      "Bumpero\\Utils\\": "src/Utils/"
+    }
+  }
+}
