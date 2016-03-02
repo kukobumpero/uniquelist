@@ -1,6 +1,6 @@
 <?php
-/**
- * uniquelist
+/*
+ * UniqueList
  *
  * Date: 2/25/16
  * License: See LICENSE file @root_folder.
@@ -9,7 +9,7 @@
 namespace Bumpero\Utils;
 
 /**
- * Class Utils
+ * Class UniqueList
  * (could/should have extended ArrayObject but didn't.)
  * (could/should have added some error handling but didn't.)
  *

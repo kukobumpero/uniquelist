@@ -1,6 +1,6 @@
 <?php
-/**
- * uniquelist
+/*
+ * UniqueList
  *
  * Date: 2/25/16
  * License: See LICENSE file @root_folder.
